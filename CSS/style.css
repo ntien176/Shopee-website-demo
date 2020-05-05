@@ -507,4 +507,42 @@ header {
 .header__searching-history--item-content {
   display: block;
 }
+/* MAIN  */
+/* main wrapper */
+.main {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  gap: 20px;
+  font-size: 1.5rem;
+}
+.list-block {
+  /* border: 1px solid #999; */
+}
+.list-block__header {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #CCC;
+  font-size: 1.6rem;
+}
+.list-block__header span {
+  padding-left: 10px;
+}
+.list-block__list-header {
+  color: #FB6032;
+  cursor: pointer;
+}
+.list-block__list-item {
+  padding: 10px 0 10px 15px;
+}
 
+.list-block__list-item:hover {
+  background-color: #DDD;
+  cursor: pointer;
+}
+
+.list-block__list-item a {
+  display: block;
+  color: #444
+}
