@@ -640,3 +640,134 @@ header {
   height: 1.5rem ;
   padding: 0;
 }
+
+/* MAin item */
+
+.main-items_item {
+  width: 188.66px;
+  height: 316px;
+  /* background-color: khaki; */
+  border: 1px solid black;
+  position: relative;
+}
+.main-items_item img {
+  object-fit: contain;
+  width: 100%;
+}
+.freeship {
+  position: absolute;
+  top: 0%;
+  left: 0;
+}
+.favorite {
+  position: absolute;
+  top: 12px;
+  left: -3px;
+  height: 16px;
+  width: 58px;
+  background-color: #ee4d2d;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  color: #fff;
+  line-height: 16px;
+  font-size: 0.85rem;
+}
+.saleoff {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 37px;
+  width: 37px;
+  background-color: #ffd839;
+}
+.percent {
+  color: #ee4d2d;
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+}
+.note {
+  color: #fff;
+  font-size: 0.77rem;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.decribe {
+  padding: 0 10px 10px 10px;
+  font-weight: 100;
+  font-size: 1rem;
+  height: 1.2rem;
+  line-height: 1.8;
+  overflow: hidden;
+}
+.deal {
+  position: absolute;
+  top: 70%;
+  left: 10px;
+  display: inline;
+  font-size: 0.9rem;
+  color: #ee4d2d;
+  padding: 2px;
+  border: 1px solid #ee4d2d;
+}
+
+.origin {
+  position: absolute;
+  top: 79%;
+  left: 10px;
+  display: inline;
+}
+.saleoff-price {
+  position: absolute;
+  top: 79%;
+  left: 79px;
+  color: #ee4d2d;
+  display: inline;
+
+}
+.freeship-icon {
+    position: absolute;
+    top: 79%;
+    right: 11px;
+}
+.item-status {
+    display: flex;
+
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+    height: 10px;
+    width: 100%;
+    color: white;
+    /* background-color: lawngreen; */
+    font-size: 0.8rem;
+}
+.item-status {
+    position: absolute;
+    top: 86%;
+}
+.item-status .star-status {
+    font-size: 1rem;
+    color: yellow ;
+
+}
+.item-status span {
+    padding: 0 4px;
+    color: #333;
+    font-size: 1.2rem;
+}
+.hear-icon {
+    padding: 0 30px 0 10px;
+    color: #555;
+    font-size: 1.2rem;
+}
+.address {
+    position: absolute;
+    top: 93%;
+    right: 15px;
+    font-size: smaller;
+    color: #333;
+}
