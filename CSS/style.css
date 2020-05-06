@@ -677,7 +677,6 @@ header {
   line-height: 16px;
   text-align: center;
   font-size: 1.1rem;
-  z-index: 1;
 }
 .favorite::after {
   position: relative;
@@ -775,7 +774,6 @@ header {
 
     position: absolute;
     top: 100%;
-    z-index: 1;
     height: 10px;
     width: 100%;
     color: white;
