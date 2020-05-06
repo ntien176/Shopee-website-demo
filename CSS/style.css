@@ -654,6 +654,7 @@ header {
 
 .main-items_item:hover {
   border: 1px solid #ee8c4b;
+  transform: translateY(-1%);
 }
 .main-items_item img {
   object-fit: contain;
