@@ -677,7 +677,19 @@ header {
   line-height: 16px;
   text-align: center;
   font-size: 1.1rem;
+  z-index: 1;
 }
+.favorite::after {
+  position: relative;
+  content: "";
+  display: block;
+  top: -19%;
+  left: -95%;
+  border: 3px;
+  border-style: solid;
+  border-color:transparent #913113  transparent transparent ;
+}
+
 .saleoff {
   position: absolute;
   top: 0;
@@ -685,6 +697,20 @@ header {
   height: 37px;
   width: 37px;
   background-color: #ffd839;
+}
+.saleoff::after {
+  position: relative;
+  content: "";
+  display: block;
+  top: -4%;
+  --widthborder: 18px;
+
+  border-top: 0px;
+  border-right:var(--widthborder) ;
+  border-left: var(--widthborder);
+  border-bottom: 4px;
+  border-style: solid;
+  border-color:transparent #ffd839 transparent #ffd839 ;
 }
 .percent {
   color: #ee4d2d;
